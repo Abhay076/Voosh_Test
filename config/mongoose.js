@@ -1,8 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(
-  "mongodb+srv://abhay:abhay123@cluster0.pbi4d.mongodb.net/voosh_db"
-);
+mongoose.connect("mongodb://localhost/voosh_db");
 
 const db = mongoose.connection;
 
